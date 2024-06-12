@@ -13,6 +13,7 @@
     background-color: #535e89;
     padding: 20px;
     border: 20px solid black;
+    border-bottom: none;
   }
   
   .header > div, .header > nav {
@@ -81,4 +82,17 @@
     margin-top: 20px;
   }
 
-  
+  @media screen and (max-width: 992px) {
+   
+    .header, .main{
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+    .publicidad-container{
+      border-left: none;
+      border-top: 20px solid black;
+    }
+
+  }
